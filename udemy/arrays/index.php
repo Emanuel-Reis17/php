@@ -28,8 +28,8 @@
     // //Adicionando um valor do array
     // array_push($lista, "Reis");
     // var_dump($lista);
-    $aprovados = 0;
-    $reprovados = 0;
+    // $aprovados = 0;
+    // $reprovados = 0;
 
     $alunos = [ 5, 7, 9, 8, 10, 0];
     foreach($alunos as $c){
