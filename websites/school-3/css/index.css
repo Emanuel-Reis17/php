@@ -1,0 +1,549 @@
+@import url("main.css");
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color4);
+    width: 100%;
+    height: 800px;
+}
+
+.banner-introduction {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    height: 100%;
+}
+
+.banner-introduction .banner-boy {
+    object-fit: cover;
+    /* width: 100%; */
+    height: 100%;
+    margin-left: 0px;
+    z-index: 1;
+}
+
+.banner-introduction #school {
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    background-color: white;
+    color: var(--color4);
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.205);
+    font-size: 100px;
+}
+
+.banner-introduction .super {
+    position: absolute;
+    right: -50px;
+    font-family: var(--font1);
+    font-size: 500px;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.banner-introduction .banner-text p {
+    color: white;
+    font-family: var(--font3);
+    font-size: 1.3em;
+    width: 400px;
+}
+
+.banner-introduction .banner-text .btn {
+    background-color: transparent;
+    color: white;
+    font-family: var(--font0);
+    font-weight: 300;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 15px 28px;
+    border: 1px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.banner-introduction .banner-text .btn.active {
+    background-color: white;
+    color: var(--color4);
+    font-weight: 600;
+    border: 1px solid var(--color4);
+}
+
+/*MAIN*/
+
+.main {
+    background-color: var(--color0);
+    width: 100%;
+    /* height: 100%; */
+}
+
+/*SOBRE*/
+
+.sobre {
+    background-image: url(https://res.cloudinary.com/dn1j6dpd7/image/upload/f_auto,q_auto/v1600423784/typing-speed-test/test-bg-left.png),url(https://res.cloudinary.com/dn1j6dpd7/image/upload/f_auto,q_auto/v1600423784/typing-speed-test/test-bg-right.png);
+    background-size: 393px auto;
+    background-position: calc(50% - 650px) 0,calc(50% + 650px) 0;
+    background-repeat: repeat-y;
+    background-color: var(--color0);
+    width: 100%;
+    height: 600px;
+}
+
+.sobre-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1400px;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sobre-container .text {
+    background-color: var(--color0);
+    margin-bottom: 70px;
+    padding: 10px 10px 20px 20px;
+    border-radius: 5px;
+    border-left: 5px solid var(--color4);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.103);
+}
+
+.sobre-container .text h1 {
+    color: var(--color4);
+    font-family: var(--font3);
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.sobre-container .text p {
+    width: 400px;
+    color: rgb(20, 20, 20);
+    font-family: var(--font0);
+}
+
+.sobre-container .img {
+    position: relative;
+    width: 570px;
+    height: 400px;
+}
+
+.sobre-container .img .local {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    top: 20px;
+    right: -50px;
+    background-color: var(--color0);
+    color: var(--color4);
+    font-family: var(--font0);
+    font-size: 0.9em;
+    font-weight: 200;
+    padding: 3px;
+    border-radius: 7px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.103);
+}
+
+.sobre-container .img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.sobre-container.two {
+    position: relative;
+}
+
+.sobre-container.two img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.sobre-container.two .popup {
+    position: absolute;
+    background-color: var(--color0);
+    width: 330px;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.103);
+}
+
+.sobre-container.two .popup.um {
+    top: 30px;
+    left: 40px;
+    border-left: 5px solid var(--color1); 
+}
+
+.sobre-container.two .popup.d {
+    bottom: 100px;
+    left: 90px;
+    border-left: 5px solid var(--color2); 
+}
+
+
+.sobre-container.two .popup.t {
+    top: 100px;
+    right: 120px;
+    border-left: 5px solid var(--color3); 
+}
+
+.sobre-container.two .popup.q {
+    bottom: 90px;
+    right: 140px;
+    border-left: 5px solid var(--color4); 
+}
+
+.max {
+    position: absolute;
+    top: 300px;
+    background-color: var(--color0);
+    color: var(--color4);
+    font-family: var(--font0);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.103);
+}
+
+.sobre-container.two .popup p {
+    font-family: var(--font0);
+}
+
+/*INTRODUCTION*/
+
+.introduction {
+    background-color: var(--color5);
+    width: 100%;
+    /* height: 600px; */
+    margin: auto;
+}
+
+.introduction .introduction_text {
+    width: 1400px;
+    text-align: center;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.introduction .introduction_text .dest {
+    color: var(--color2);
+    font-family: var(--font0);
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.introduction .introduction_text h2 {
+    color: var(--color0);
+    font-family: var(--font3);
+    font-size: 3.7em;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.introduction .introduction_text p {
+    color: rgb(29, 29, 29);
+    font-family: var(--font0);
+    font-weight: 400;
+
+    font-size: 1em;
+    line-height: 20px;
+}
+
+.introduction .introduction_text .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 30px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.introduction .introduction_text .cards .card_values {
+    text-align: left;
+    background-color: var(--color0);
+    width: 350px;
+    height: 265px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+}
+
+.introduction .introduction_text .cards .card_values span {
+    /* background-color: var(--color5); */
+    color: var(--color5);
+    margin-bottom: 20px;
+    padding: 7px;
+    border: 0.1rem solid var(--color5);
+    border-radius: 5px;
+}
+
+.introduction .introduction_text .cards .card_values h4 {
+    color: var(--color5);
+    font-family: var(--font3);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/*EDUCAÇÃO*/
+
+.educacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color1);
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.educacao .dest {
+    color: var(--color4);
+    font-family: var(--font1);
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.educacao h2 {
+    color: var(--color0);
+    font-family: var(--font3);
+    font-size: 3.7em;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.educacao p {
+    color: rgb(17, 6, 6);
+    font-family: var(--font0);
+    font-size: 1.2em;
+    line-height: 20px;
+}
+
+.educacao .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 30px;
+    /* background-color: var(--color3); */
+    width: 1200px;
+    margin-top: 40px;
+    padding: 10px;
+    /* height: 500px; */
+}
+
+.educacao .cards .card_courses {
+    background-color: var(--color0);
+    width: 300px;
+    height: 500px;
+    /* padding: 20px; */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.103);
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.educacao .cards .card_courses .img {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 65%;
+    /* border-radius: 20px; */
+}
+
+.educacao .cards .card_courses .img span {
+    position: absolute;
+    top: -3px;
+    left: 10px;
+    background-color: var(--color0);
+    color: var(--color1);
+    padding: 30px 10px 10px 10px;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.educacao .cards .card_courses .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.educacao .cards .card_courses .img.ec {
+    background-color: var(--color4);
+}
+
+.educacao .cards .card_courses .img.ec span {
+    background-color: var(--color0);
+    color: var(--color4);
+}
+
+.educacao .cards .card_courses .img .ec {
+    background-color: var(--color0);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    object-fit: none;
+    opacity: 1;
+    margin-top: 30%;
+}
+
+.educacao .cards .card_courses .text {
+    text-align: left;
+    padding: 10px;
+}
+
+.educacao .cards .card_courses .text h4 {
+    color: var(--color1);
+    font-family: var(--font0);
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.educacao .cards .card_courses .text p {
+    font-size: 0.9em;
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+
+.educacao .cards .card_courses .text .matriculas {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color1);
+    gap: 5px;
+    color: var(--color0);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.educacao .cards .card_courses .text .matriculas a {
+    text-decoration: none;
+    color: var(--color0);
+}
+
+/*CONTATO*/
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    /* height: 500px; */
+}
+
+.contato .dest {
+    color: var(--color4);
+    font-family: var(--font1);
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.contato h2 {
+    color: rgb(31, 31, 31);
+    font-family: var(--font3);
+    font-size: 3.7em;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.contato .infor {
+    max-width: 700px;
+    font-size: 1em;
+}
+
+.contato p {
+    color: rgb(24, 24, 24);
+    font-family: var(--font0);
+    font-size: 1.2em;
+    line-height: 20px;
+}
+
+.contato .forms {
+    width: 660px;
+    height: 100%;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.contato .forms form h3 {
+    text-align: left;
+    color: rgb(22, 22, 22);
+    font-family: var(--font0);
+
+}
+
+.contato .forms form p {
+    text-align: left;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.contato .forms form .divisor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.contato .forms form .divisor span {
+    text-align: left;
+    font-weight: 300;
+}
+
+.contato .forms form .divisor span input {
+    width: 300px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 0.1em solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+}
+
+.contato .forms form input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 0.1em solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+}
+
+input:focus-within {
+    outline: none;
+}
+
+.contato .forms form textarea {
+    text-indent: 5px;
+    width: 100%;
+    font-family: var(--font0);
+    border: 0.1em solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+}
+
+.contato .forms form button {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color4);
+        gap: 5px;
+        color: var(--color0);
+        font-size: 1.1em;
+        padding: 5px 15px;
+        border: 0.1em solid var(--color4);
+        border-radius: 5px;
+        cursor: pointer;
+}

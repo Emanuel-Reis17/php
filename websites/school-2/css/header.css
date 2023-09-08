@@ -1,0 +1,110 @@
+@import url("main.css");
+
+.header_container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 9999;
+}
+
+.noti {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color0);
+    color: rgb(226, 226, 226);
+    font-family: var(--font0);
+    width: 100%;
+    padding: 10px 0;
+}
+
+.noti .line {
+    text-decoration: underline;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.37), transparent);
+    width: 100%;
+}
+
+.header .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1400px;
+    padding: 20px;
+}
+
+.logo {
+    color: var(--color2);
+    font-family: var(--font0);
+    font-weight: 400;
+    letter-spacing: 1%;
+}
+
+.logo .dest {
+    color: var(--color3);
+    font-family: var(--font1);
+    font-weight: 900 !important;
+}
+
+.header .nav-bar .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.header .nav-bar .menu .links.active {
+    background-color: var(--color2);
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.521);
+}
+
+.header .nav-bar .menu .links {
+    font-family: var(--font1);
+    font-weight: bold;
+    padding: 4px 7px;
+}
+
+.header .nav-bar .menu .links a {
+    color: var(--color3);
+    text-decoration: none;
+}
+
+.header .nav-bar .menu .links:hover {
+    background-color: #005068;
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.521);
+    transition: 0.3s ease;
+}
+
+.header .nav-bar .btn-login {
+    background-color: var(--color3);
+    padding: 9px 18px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.521);
+}
+
+.header .nav-bar .btn-login a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--color2);
+    font-family: var(--font1);
+    font-size: 1.2em;
+    font-weight: 900;
+}

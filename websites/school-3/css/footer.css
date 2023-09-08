@@ -1,0 +1,127 @@
+@import url("main.css");
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color5);
+    width: 100%;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--color2);
+    color: #ac8826;
+    margin-left: auto;
+    padding: 30px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.308);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 1400px;
+    height: 300px;
+}
+
+.footer .logoo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font1);
+    color: #37284d;
+}
+
+.footer .logoo .logo {
+    width: 40px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul h2 {
+    color: var(--color2); /**/
+    font-family: var(--font0);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer ul li {
+    color: #d6b24e;
+    font-family: var(--font0);
+    font-size: 0.8em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footer .newsletter {
+    background-color: var(--color2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.308);
+}
+
+.footer .newsletter p {
+    color: white;
+    font-family: var(--font0);
+    margin-bottom: 5px;
+}
+
+.footer .newsletter .news {
+    color: rgb(253, 255, 206);
+    font-family: var(--font0);
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.footer .newsletter div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer .newsletter input {
+    background-color: #ac8826;
+    color: white;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.footer .newsletter input::placeholder {
+    color: white;
+}
+
+.footer .newsletter button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: var(--color2);
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.308);
+}
+
+.rights {
+    text-align: start;
+    width: 1400px;
+    padding: 30px 0;
+    color: #cea535;
+    font-family: var(--font0);
+}

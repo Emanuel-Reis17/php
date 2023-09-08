@@ -1,0 +1,85 @@
+@import url('main.css');
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.562), transparent);
+    width: 100%;
+    padding: 20px 0;
+    z-index: 9999;
+}
+
+.header .nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+
+.title {
+    color: var(--color4);
+    font-family: var(--font2);
+    font-weight: 300;
+}
+
+.title span {
+    background-color: var(--color4);
+    color: var(--color0);
+    font-style: italic;
+    font-weight: 600;
+    padding: 1px 3px;
+    border-radius: 3px;
+}
+
+.header .nav_bar .nav_menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+}
+
+.header .nav_bar .nav_menu ul .links {
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.header .nav_bar .nav_menu ul .links a {
+    text-decoration: none;
+    color: var(--color5);
+    font-family: var(--font0);
+    font-weight: 500;
+}
+
+.header .nav_bar .nav_menu ul .links:hover {
+    background-color: #640c255d;
+    transition: 0.2s ease;
+}
+
+.header .nav_bar .nav_menu ul .links:focus-within {
+    background-color: transparent;
+    border: 1px solid var(--color4);
+}
+
+.nav_bar_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--color4);
+    color: var(--color0);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.nav_bar_login a {
+    text-decoration: none;
+    color: var(--color0);
+    font-family: var(--font0);
+    font-weight: 700;
+    font-size: 1.1em;
+}

@@ -1,0 +1,52 @@
+@import url("main.css");
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color0);
+    width: 100%;
+    box-shadow: 0xp 5px 18px rgba(0, 0, 0, 0.37);
+}
+
+.header .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1400px;
+    padding: 25px 0;
+}
+
+.nav-bar .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.logo .logo-name {
+    color: var(--color6);
+    font-family: var(--font1);
+}
+
+.logo .logo-name .sub-name {
+    color: var(--color4);
+}
+
+.nav-bar .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-bar .menu .link {
+    color: var(--color4);
+    font-family: var(--font0);
+    font-weight: 500;
+}

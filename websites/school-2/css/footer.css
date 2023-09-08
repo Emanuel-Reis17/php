@@ -1,0 +1,114 @@
+@import url("main.css");
+
+.footer {
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 600px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    height: 100%;
+    margin: auto;
+}
+
+.footer-container .logo {
+    color: #aaaaaa;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.footer-container .logo .dest {
+    color: #aaaaaa;
+}
+
+.footer-container .text p {
+    color: #aaaaaa;
+    font-family: var(--font0);
+    font-size: 0.8em;
+}
+
+.footer-container ul {
+    list-style: none;
+}
+
+.footer-container ul h2 {
+    color: #c0bdbd;
+    font-family: var(--font0);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-container ul li {
+    color: #aaaaaace;
+    font-family: var(--font0);
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.footer-container .newsletter p {
+    color: #e6e6e6;
+    font-family: var(--font0);
+    margin-bottom: 5px;
+}
+
+.footer-container .newsletter .news {
+    color: #d6d6d6a1;
+    font-family: var(--font0);
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.footer-container .newsletter div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer-container .newsletter input {
+    background-color: #242424;
+    color: white;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #8080807e;
+    border-radius: 3px;
+}
+
+.footer-container .newsletter button {
+    background-color: #242424;
+    color: var(--color3);
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+}
+
+.sub .subb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #c0bdbd;
+    font-family: var(--font0);
+    font-size: 0.9em;
+    width: 1400px;
+    padding: 20px 0;
+    border-top: 1px solid #aaaaaa;
+}
+
+.sub .subb svg {
+    margin-right: 10px;
+}
